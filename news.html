@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Latest news and events from Shree Future Vision Secondary School in Kathmandu.">
+    <title>News & Events | Shree Future Vision Secondary School</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="book">
+                <div class="book__page"></div>
+                <div class="book__page"></div>
+                <div class="book__page"></div>
+            </div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>SFV School</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="academics.html" class="nav-link">Academics</a></li>
+                <li class="nav-item"><a href="admissions.html" class="nav-link">Admissions</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="news.html" class="nav-link active">News</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>News & Events</h1>
+            <p>Stay updated with the latest happenings at our school</p>
+        </div>
+    </section>
+
+    <section class="news-section section-padding">
+        <div class="container">
+            <div class="news-grid-full">
+                <article class="news-card-full animate-on-scroll" id="news1">
+                    <div class="news-image-full">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90910b7ab?w=800&h=500&fit=crop" alt="Annual Sports Day" loading="lazy">
+                        <span class="news-date-full">15 May 2026</span>
+                    </div>
+                    <div class="news-content-full">
+                        <h2>Annual Sports Day 2026 - A Grand Success</h2>
+                        <div class="news-meta">
+                            <span><i class="fas fa-user"></i> By Admin</span>
+                            <span><i class="fas fa-folder"></i> Sports</span>
+                        </div>
+                        <p class="news-excerpt">The Annual Sports Day at Shree Future Vision Secondary School was held on May 15, 2026, with great enthusiasm and participation from students across all grades. The event showcased the athletic talents of our students...</p>
+                        <div class="news-full-content" style="display: none;">
+                            <p>The event began with a march past led by the school band, followed by various track and field events. Students competed in 100m, 200m, and 400m races, long jump, high jump, and relay races.</p>
+                            <p>The highlight of the day was the inter-house championship, where Red House emerged as the overall winner. Parents and teachers actively participated in special events organized for them.</p>
+                            <p>Principal Dr. Ram Bahadur Thapa congratulated all participants and emphasized the importance of sports in overall development. The event concluded with a prize distribution ceremony.</p>
+                        </div>
+                        <button class="btn btn-primary read-more-btn" onclick="toggleReadMore('news1')">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+
+                <article class="news-card-full animate-on-scroll" id="news2">
+                    <div class="news-image-full">
+                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=500&fit=crop" alt="Science Exhibition" loading="lazy">
+                        <span class="news-date-full">28 Apr 2026</span>
+                    </div>
+                    <div class="news-content-full">
+                        <h2>Students Win Inter-School Science Exhibition</h2>
+                        <div class="news-meta">
+                            <span><i class="fas fa-user"></i> By Admin</span>
+                            <span><i class="fas fa-folder"></i> Academics</span>
+                        </div>
+                        <p class="news-excerpt">Our talented students secured first place in the Inter-School Science Exhibition held at the National Academy Hall on April 28, 2026. The winning project focused on renewable energy solutions...</p>
+                        <div class="news-full-content" style="display: none;">
+                            <p>The team, comprising students from Grade 9 and 10, presented an innovative solar-powered water purification system that impressed all judges. The project demonstrated practical application of scientific principles to solve real-world problems.</p>
+                            <p>Science teacher Mr. Bikash Shrestha guided the students throughout their preparation. The school provided all necessary resources and laboratory support for the project development.</p>
+                            <p>This achievement adds to our school's growing list of academic accomplishments and reinforces our commitment to nurturing scientific temperament among students.</p>
+                        </div>
+                        <button class="btn btn-primary read-more-btn" onclick="toggleReadMore('news2')">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+
+                <article class="news-card-full animate-on-scroll" id="news3">
+                    <div class="news-image-full">
+                        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&h=500&fit=crop" alt="Graduation" loading="lazy">
+                        <span class="news-date-full">10 Apr 2026</span>
+                    </div>
+                    <div class="news-content-full">
+                        <h2>Grade 10 Graduation Ceremony 2026</h2>
+                        <div class="news-meta">
+                            <span><i class="fas fa-user"></i> By Admin</span>
+                            <span><i class="fas fa-folder"></i> Events</span>
+                        </div>
+                        <p class="news-excerpt">A memorable graduation ceremony was held on April 10, 2026, to celebrate the achievements of our Grade 10 students as they prepare for their SEE examinations...</p>
+                        <div class="news-full-content" style="display: none;">
+                            <p>The ceremony was attended by proud parents, teachers, and distinguished guests. Chief Guest Mr. Hari Prasad Sharma, a renowned educationist, delivered an inspiring speech encouraging students to pursue their dreams with dedication.</p>
+                            <p>Merit certificates were awarded to top-performing students in academics, sports, and extracurricular activities. The students shared their experiences and memories of their time at SFV School.</p>
+                            <p>The event concluded with a cultural program featuring performances by junior students, a farewell dinner, and lots of emotional moments as students bid goodbye to their school.</p>
+                        </div>
+                        <button class="btn btn-primary read-more-btn" onclick="toggleReadMore('news3')">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3><i class="fas fa-graduation-cap"></i> SFV School</h3>
+                    <p>Empowering students with knowledge, skills, and values for a successful future.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Gyaneshwor, Kathmandu, Nepal</li>
+                        <li><i class="fas fa-phone"></i> +977-1-4XXXXXX</li>
+                        <li><i class="fas fa-envelope"></i> info@sfvschool.edu.np</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>School Hours</h4>
+                    <ul class="hours">
+                        <li>Sun - Fri: 9:00 AM - 4:00 PM</li>
+                        <li>Saturday: Closed</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shree Future Vision Secondary School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
